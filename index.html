@@ -6,18 +6,17 @@
     <title><h1>first proper website</h1></title>
     <style>
         h1,p{text-align: center;}
-        fieldset{ width: 300px;
+        fieldset{ width: 200px; padding-left: 20px;
         margin: 0 auto;/*horizontally center*/}
     </style>
 </head>
 <body style="background-color: skyblue;">
-    <div class="container">
         <h1 id="title"margin-top: 7%;>Digital WorldTech Academy frontend Summer form</h1>
-        <p id="description"><i>digital world tech academy is offering a summer coding class,at discounted a dicounted prize hurry up and join to start your coding journey</i></p>
-
+        <p id="description"><i>digital world tech academy is offering a summer coding class,at discounted a prize hurry up<br> and join to start your coding journey</i></p>
+            <fieldset style="width: 40%; border-radius: 4%; background-color: #000000; margin-top: 24px;"><br>
         <form method="post" id="survey forn">
-            <fieldset style="width: 50%; background-color: #000000;">
-            <label for="name" style="color: aliceblue;">Name</label><br>
+            
+            <label for="name" style="margin-top: 50%; color: aliceblue;">Name</label><br>
             <input type="name" id="favour" required placeholder="enter your name" size="95%" style="height: 28px;"><br><br>
             <label for="email" style="color: aliceblue;">Email</label><br>
             <input type="email" id="ifunanyaesedo@gmail.com" required placeholder="enter your email" size="95%" style="height: 28px;"><br><br>
@@ -41,8 +40,7 @@
             <label for="maybe" style="color: aliceblue;">Maybe</label><br>
             <input type="radio" name="recommend" value="not sure" id="not sure">
             <label for="not sure" style="color: aliceblue;">Not sure</label><br><br>
-            <label for="improved?" style="color: aliceblue;">
-                <label>what is your favorite feature of digital world tech</label><br>
+            <label for="improved?" style="color: aliceblue;">what is your favorite feature of digital world tech</label><br>
             <select name="select feature" id="select feature" style="width: 95%; height: 34px;">
                 <option value="disabled">select an option</option>
                 <option value="Challenges">Challenges</option>
@@ -72,12 +70,11 @@
            
             <label for="comments" style="font-size: 24px; color: aliceblue;" >Any comments or suggestions?</label><br>
             <textarea name="comments" id="comments" style="width: 95%; height: 75px;" placeholder="Enter your comments here..." maxlength="1000"></textarea><br><br>
-            <button style="color: white; width: 99%; height: 40px;text-align: center; background-color: green;">submit</button>
+            <button style="color: white; width: 99%; height: 40px;text-align: center; background-color: green;">submit</button><br><br>
+        </fieldset>
 
-
-            </fieldset>
+        
             
         </form>
-        </div>
 </body> 
 </html>
